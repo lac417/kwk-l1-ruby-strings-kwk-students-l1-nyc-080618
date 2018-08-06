@@ -16,7 +16,7 @@ time = gets.chomp
 puts "Who is the host?"
 host = gets.chomp
 
-Dear #{guest},
+"Dear #{guest},
 
 You are cordially invited to the #{party} on #{date} at #{time}. Please RSVP no later than October 30.
 
