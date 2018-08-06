@@ -21,5 +21,4 @@ puts "Dear #{guest_name},
 You are cordially invited to the #{party} on #{date} at #{time}. Please RSVP no later than October 30.
 
 Sincerely,
-
 #{host}"
