@@ -2,7 +2,7 @@
 
 # Try starting out with puts'ing a string.
 puts "Hi, you've been invited to a party! What is your name?"
-guest = gets.chomp
+guest_name = gets.chomp
 
 puts "What is the name of the party?"
 party = gets.chomp
@@ -16,7 +16,7 @@ time = gets.chomp
 puts "Who is the host?"
 host = gets.chomp
 
-puts "Dear #{guest},
+puts "Dear #{guest_name},
 
 You are cordially invited to the #{party} on #{date} at #{time}. Please RSVP no later than October 30.
 
