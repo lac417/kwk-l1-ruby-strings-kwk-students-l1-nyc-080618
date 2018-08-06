@@ -14,11 +14,11 @@ puts "What time does it happen?"
 time = gets.chomp
 
 puts "Who is the host?"
-host = gets.chomp
+host_name = gets.chomp
 
 puts "Dear #{guest_name},
 
 You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than October 30.
 
 Sincerely,
-#{host}"
+#{host_name}"
